@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 30px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(100% / 3);
+}
+
+.card_brand, .card_type, .card_price {
+    font-size: 12px;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.price_sail {
+    color: green;
+}
+
+.card_type {
+    font-weight: bold;
+}
