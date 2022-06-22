@@ -81,11 +81,6 @@ img {
     font-weight: bold;
 }
 
-.recycle::after {
-    content:"";
-    left: 0;
-}
-
 .heart {
     position: absolute;
     right: 0;
@@ -117,6 +112,14 @@ img {
 }
 
 /* hover */
+
+.heart:hover {
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 10;
+    color: red;
+}
 
 .img_1::after {
     content:"" ;
