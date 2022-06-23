@@ -7,13 +7,17 @@
 header {
     margin: 0 auto;
     background-color:#ff6900 ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 11;
 }
 
 .header_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .header_flex img {
@@ -51,6 +55,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
+    margin: 0 -5px;
 }
 
 .col-1 {
@@ -246,4 +251,8 @@ footer {
 .social_icon img {
     max-width: 20px;
     padding-top: 5px;
+}
+
+.footer-social {
+    text-align: center;
 }
